@@ -4,7 +4,7 @@ import google.generativeai as genai
 model = genai.GenerativeModel('gemini-pro')
 
 import os
-my_api_key_gemini = os.getenv('my_new_api_key_here')
+my_api_key_gemini = "AIzaSyAdKuoqEtJ9ax1ouwjmHZ16YsMd19JuFL0"
 
 genai.configure(api_key=my_api_key_gemini)
 
