@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import google.generativeai as genai
 ##ceci changement pour tester travail à distance
 model = genai.GenerativeModel('gemini-pro')
-
+##ceci changement NR 2 pour tester travail à distance
 import os
 my_api_key_gemini = "AIzaSyAdKuoqEtJ9ax1ouwjmHZ16YsMd19JuFL0"
 
